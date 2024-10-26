@@ -1,0 +1,97 @@
+main {
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .container {
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+}
+
+h1, h2, h3, h4 , h5, p {
+    font-family: "Socar Sans Pro", sans-serif;
+    color: $white;
+    letter-spacing: normal;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+.two-columns {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 12px;
+
+    & > div {
+        flex-basis: 50%;
+    }
+}
+
+.happy-image {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.call-to-action {
+    padding: 20px 0px 20px 20px;
+    margin-bottom: 24px;
+    background-image: url('../images/rectangle.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+
+    h3 {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+
+.get-prizes {
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.prize {
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;margin-top: 16px;
+}
+
+.slide {
+    display: flex;
+    align-items: end;
+    text-align: end;
+
+    &:not(:first-of-type){ display: none; }
+
+    h5 {
+        font-weight: 400;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+
+    p {
+        font-size: 6px;
+        font-weight: 400;
+        color: $white;
+        line-height: 6px;
+    }
+
+    img {
+        max-width: 45px;
+    }
+}
