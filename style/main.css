@@ -451,17 +451,16 @@ h2 {
 
 .two-columns {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   margin-top: 12px;
 }
 .two-columns > div {
-  flex-basis: 50%;
+  flex-basis: 47%;
 }
 
 .happy-image {
-  margin-top: 16px;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 .call-to-action {
@@ -487,8 +486,8 @@ h2 {
 .prize {
   font-size: 24px;
   line-height: 29px;
+  margin-top: 2px;
   text-transform: uppercase;
-  margin-top: 16px;
 }
 
 .slide {
