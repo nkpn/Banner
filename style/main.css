@@ -436,6 +436,12 @@ main .container {
   padding-top: 20px;
   padding-bottom: 16px;
 }
+@media screen and (min-width: 768px) {
+  main .container {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+}
 
 h1, h2, h3, h4, h5, p {
   font-family: "Socar Sans Pro", sans-serif;
@@ -531,15 +537,26 @@ h2 {
   }
 }
 
+.slider {
+  height: 100%;
+}
+.slider > div {
+  height: 100%;
+}
+
 .slick-track {
   display: flex;
+  height: 100%;
+  max-height: 100%;
 }
 
 .slick-track .slick-slide {
   display: flex;
-  height: auto;
+  height: 100%;
+  max-height: 100%;
   align-items: flex-end;
   justify-content: center;
+  margin-top: auto;
 }
 
 .slide {
@@ -551,7 +568,7 @@ h2 {
   max-height: 175px;
 }
 .slide h5 {
-  margin-top: 6px;
+  margin-top: 12px;
   font-weight: 400;
 }
 .slide img {
