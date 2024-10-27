@@ -501,7 +501,7 @@ h2 {
     margin-bottom: 24px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 450px) {
   .call-to-action {
     max-width: 300px;
   }
@@ -560,7 +560,7 @@ h2 {
   height: 100%;
   max-height: 100%;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: end;
   margin-top: auto;
 }
 
@@ -617,4 +617,9 @@ h2 {
 }
 .footer img {
   max-width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .footer img {
+    max-width: 200px;
+  }
 }/*# sourceMappingURL=main.css.map */
