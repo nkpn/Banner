@@ -448,6 +448,12 @@ h2 {
   font-size: 24px;
   line-height: 29px;
 }
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
 
 .two-columns {
   display: flex;
@@ -494,10 +500,22 @@ h2 {
   font-weight: 500;
   text-transform: uppercase;
 }
+@media screen and (min-width: 768px) {
+  .call-to-action h3 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
 
 .get-prizes {
   font-size: 14px;
   line-height: 18px;
+}
+@media screen and (min-width: 768px) {
+  .get-prizes {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 
 .prize {
@@ -505,13 +523,34 @@ h2 {
   line-height: 34px;
   text-transform: uppercase;
 }
+@media screen and (min-width: 768px) {
+  .prize {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slick-track .slick-slide {
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
 
 .slide {
   display: flex;
   align-items: end;
   text-align: end;
 }
+.slide .slick-slide {
+  max-height: 175px;
+}
 .slide h5 {
+  margin-top: 6px;
   font-weight: 400;
 }
 
@@ -527,6 +566,12 @@ h2 {
   color: #ffffff;
   line-height: 6px;
   padding-top: 6px;
+}
+@media screen and (min-width: 768px) {
+  .footer p {
+    font-size: 12px;
+    line-height: 16px;
+  }
 }
 .footer img {
   max-width: 100px;
