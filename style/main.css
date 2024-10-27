@@ -501,6 +501,11 @@ h2 {
     margin-bottom: 24px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .call-to-action {
+    max-width: 300px;
+  }
+}
 .call-to-action h3 {
   font-size: 14px;
   line-height: 18px;
@@ -571,12 +576,18 @@ h2 {
   margin-top: 12px;
   font-weight: 400;
 }
+@media screen and (min-width: 768px) {
+  .slide h5 {
+    font-size: 18px;
+    text-align: center;
+  }
+}
 .slide img {
   max-height: 160px;
 }
 @media screen and (min-width: 768px) {
   .slide img {
-    max-height: unset;
+    max-height: 270px;
   }
 }
 
@@ -584,7 +595,12 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 12px;
+  margin-top: 6px;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    margin-top: 12px;
+  }
 }
 .footer p {
   font-size: 8px;
