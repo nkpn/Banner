@@ -481,7 +481,8 @@ h2 {
 }
 
 .call-to-action {
-  padding: 18px 0px 18px 18px;
+  padding: 24px 16px 24px 20px;
+  margin-left: -4px;
   margin-bottom: 20px;
   background-image: url("../images/rectangle.png");
   background-repeat: no-repeat;
@@ -490,7 +491,7 @@ h2 {
 }
 @media screen and (min-width: 768px) {
   .call-to-action {
-    padding: 18px 0px 18px 18px;
+    padding: 24px;
     margin-bottom: 24px;
   }
 }
