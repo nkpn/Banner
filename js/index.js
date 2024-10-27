@@ -7,5 +7,5 @@
     dots: false,
     arrows: false,
     autoplay: true, // Enables auto-slide
-    autoplaySpeed: 7000, // Auto-slide interval in milliseconds (5 seconds)
+    autoplaySpeed: 5000, // Auto-slide interval in milliseconds (5 seconds)
   });
