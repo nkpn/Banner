@@ -537,7 +537,7 @@ h2 {
 .slick-track .slick-slide {
   display: flex;
   height: auto;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
 
@@ -552,6 +552,14 @@ h2 {
 .slide h5 {
   margin-top: 6px;
   font-weight: 400;
+}
+.slide img {
+  max-height: 160px;
+}
+@media screen and (min-width: 768px) {
+  .slide img {
+    max-height: unset;
+  }
 }
 
 .footer {
