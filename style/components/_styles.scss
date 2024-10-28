@@ -49,11 +49,11 @@ h2 {
 }
 
 .happy-image {
-    margin-top: 8px;
+    // margin-top: 8px;
 
-    @media screen and (min-width: $tablet) {
-        margin-top: 12px;
-    }
+    // @media screen and (min-width: $tablet) {
+    //     margin-top: 12px;
+    // }
 }
 
 .call-to-action {
@@ -76,10 +76,9 @@ h2 {
     }
 
     h3 {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 18px;
         font-weight: 500;
-        text-transform: uppercase;
 
         @media screen and (min-width: $tablet) {
            font-size: 24px;
