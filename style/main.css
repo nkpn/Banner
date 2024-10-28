@@ -490,11 +490,12 @@ h2 {
   .call-to-action {
     padding: 24px;
     margin-bottom: 24px;
+    max-width: 300px;
   }
 }
 @media screen and (min-width: 450px) {
   .call-to-action {
-    max-width: 300px;
+    max-width: 250px;
   }
 }
 .call-to-action h3 {
