@@ -369,6 +369,7 @@ li {
 img {
   width: 100%;
   height: auto;
+  display: block;
 }
 
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
