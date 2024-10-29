@@ -411,18 +411,17 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .container {
   max-width: 100%;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 25px;
   position: relative;
 }
 @media screen and (min-width: 768px) {
   .container {
-    padding: 0 20px;
+    padding: 0 25px;
   }
 }
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1280px;
-    padding: 0 25px;
   }
 }
 
@@ -458,8 +457,8 @@ h2 {
   align-items: flex-start;
 }
 .two-columns > div {
-  flex-basis: 48%;
-  max-width: 48%;
+  flex-basis: 50%;
+  max-width: 50%;
 }
 
 .happy-image {
@@ -554,7 +553,8 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 6px;
+  margin-top: 12px;
+  padding-bottom: 16px;
 }
 @media screen and (min-width: 768px) {
   .footer {
@@ -575,7 +575,8 @@ h2 {
   }
 }
 .footer img {
-  max-width: 100px;
+  margin-bottom: 3px;
+  max-width: 75px;
 }
 @media screen and (min-width: 768px) {
   .footer img {
