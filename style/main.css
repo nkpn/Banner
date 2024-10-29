@@ -431,18 +431,8 @@ main {
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-main .container {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-@media screen and (min-width: 768px) {
-  main .container {
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
+  height: -moz-min-content;
+  height: min-content;
 }
 
 h1, h2, h3, h4, h5, p {
@@ -551,6 +541,11 @@ h2 {
 @media screen and (min-width: 768px) {
   .slide img {
     max-height: 250px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .slide img {
+    max-height: 375px;
   }
 }
 

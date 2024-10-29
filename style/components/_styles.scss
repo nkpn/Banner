@@ -2,15 +2,7 @@ main {
     background-image: url('../images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: fit-content;
-    
-    .container {
-        height: fit-content;
-        @media screen and (min-width: $tablet) {
-            padding-top: 24px;
-            padding-bottom: 24px;
-        }
-    }
+    height: min-content;
 }
 
 h1, h2, h3, h4 , h5, p {
@@ -119,6 +111,10 @@ h2 {
         @media screen and (min-width: $tablet) {
           max-height: 250px;
         }
+
+        @media screen and (min-width: $desktop) {
+            max-height: 375px;
+          }
     }
 }
 
