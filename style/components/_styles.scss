@@ -36,11 +36,10 @@ h2 {
 
 .happy-image {
     margin-top: 5px;
-    margin-left: -10px;
+    margin-left: -14px;
 }
 
 .call-to-action {
-    margin-left: -12px;
     margin-bottom: 24px;
 }
 
@@ -139,7 +138,7 @@ h2 {
         padding-top: 6px;
 
         @media screen and (min-width: $tablet) {
-            font-size: 12px;
+            font-size: 14px;
             line-height: 16px;
          }
     }
