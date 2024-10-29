@@ -35,6 +35,7 @@ h2 {
 }
 
 .happy-image {
+    margin-top: 5px;
     margin-left: -10px;
 }
 
@@ -122,6 +123,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 6px;
 
     @media screen and (min-width: $tablet) {
         margin-top: 12px;
