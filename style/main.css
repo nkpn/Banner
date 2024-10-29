@@ -535,6 +535,8 @@ h2 {
   }
 }
 .slide img {
+  height: auto;
+  width: auto;
   max-height: 135px;
 }
 @media screen and (min-width: 768px) {
